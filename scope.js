@@ -1,13 +1,5 @@
-function Animal(name, weight) {
-    this.name = name
-    this.weight = weight
+
+let flag = ['a','b','c','d']
+for (let i = 0;i<flag.length;i++){
+    console.log(`flag: ${flag[i] }`)
 }
-
-function Chicken(name, weight, legs){
-    Animal.call(this, name, weight)
-    this.legs = legs
-}
-
-const manhLinh = new Chicken('Manh Linh', 90, 2)
-
-console.log(manhLinh)
