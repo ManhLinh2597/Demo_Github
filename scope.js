@@ -1,5 +1,4 @@
+const arr = [9,255,63,100,9999,100000]
+arr.sort((item1,item2) => item2 - item1)
+console.log(arr)
 
-let flag = ['a','b','c','d']
-for (let i = 0;i<flag.length;i++){
-    console.log(`flag: ${flag[i] }`)
-}
